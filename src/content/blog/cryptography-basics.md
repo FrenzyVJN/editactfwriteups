@@ -12,7 +12,7 @@ tags:
 description:
   "Unlock the secrets of encryption with Cryptography! Delve into the art of coding and decoding messages. Learn how a simple understanding of underlying principles can crack even the most complex encryption schemes. Explore tools like CyberChef, a versatile platform with a graphical user interface, making cryptographic CTF challenges a breeze."
 ---
-# **Edita CTF 2023: Starter Pack**
+# **EditaCTF**
 
 ![EditaCTF](https://hackmd.io/_uploads/ry2OKgqHp.png)
 

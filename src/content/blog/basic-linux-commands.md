@@ -12,6 +12,10 @@ tags:
 description:
   "Master the essentials of Linux commands! From navigating directories to creating and deleting files, these commands are the backbone of CTF challenges. Discover the power of the command line and build essential skills for programming and infosec. Whether you're a beginner or an advanced user, these commands are a must-have in your toolkit."
 ---
+# **EditaCTF**
+
+![EditaCTF](https://hackmd.io/_uploads/ry2OKgqHp.png)
+
 # Basic Linux Commands
 
 Learning basic Linux is essential for programmers and computer science students as it is widely used in server environments and cloud services. Proficiency in Linux provides valuable skills for deploying applications, administering servers, and navigating command-line tools.

@@ -12,6 +12,10 @@ tags:
 description:
   "Decipher the inner workings of compiled programs through Reverse Engineering. Transform machine code back into a human-readable format, understanding program functionality and identifying vulnerabilities. While the challenges may involve analyzing assembly code, this skill is invaluable for those interested in malware analysis or game hacking."
 ---
+# **EditaCTF**
+
+![EditaCTF](https://hackmd.io/_uploads/ry2OKgqHp.png)
+
 # Reverse Engineering
 
 Reverse Engineering in a CTF is typically the process of taking a compiled (machine code, bytecode) program and converting it back into a more human readable format.

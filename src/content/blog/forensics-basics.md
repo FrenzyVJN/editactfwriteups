@@ -12,6 +12,10 @@ tags:
 description:
   "Uncover the digital footprints left by attackers through the fascinating world of Forensics. Explore techniques such as Metadata analysis, File Formats, Steganography, and Networking. Gain insights into blue teaming in cybersecurity, learning to analyze event logs, detect hidden data, and more. Forensics CTF challenges provide a gateway to a broader understanding of cybersecurity."
 ---
+# **EditaCTF**
+
+![EditaCTF](https://hackmd.io/_uploads/ry2OKgqHp.png)
+
 #  Forensics
 
 Forensics is the art of recovering the digital footprints left by an attacker on a computer. There are plenty of methods to find data which seem to be deleted, changed, not stored or covertly stolen. Forensics is a very wide topic and I cant really cover it all here nor do I know enough to talk about it. So I shall only talk about some which we may use in this CTF here.
