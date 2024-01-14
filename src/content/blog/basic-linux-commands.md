@@ -9,6 +9,7 @@ tags:
   - editactf2023
   - Linux
   - basics
+  - drunkencloud
 description:
   "Master the essentials of Linux commands! From navigating directories to creating and deleting files, these commands are the backbone of CTF challenges. Discover the power of the command line and build essential skills for programming and infosec. Whether you're a beginner or an advanced user, these commands are a must-have in your toolkit."
 ---

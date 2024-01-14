@@ -9,6 +9,7 @@ tags:
   - editactf2023
   - forensics
   - basics
+  - drunkencloud
 description:
   "Uncover the digital footprints left by attackers through the fascinating world of Forensics. Explore techniques such as Metadata analysis, File Formats, Steganography, and Networking. Gain insights into blue teaming in cybersecurity, learning to analyze event logs, detect hidden data, and more. Forensics CTF challenges provide a gateway to a broader understanding of cybersecurity."
 ---

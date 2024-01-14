@@ -11,14 +11,14 @@ Coming soon
 </div>
 
 ## Tech Stack
-| Forensics
-| OSINT
-| Cryptography
-| Web
-| Reversing
-| Python
-| C
-| Javascript
+- Forensics
+- OSINT
+- Cryptography
+- Web
+- Reversing
+- Python
+- C Programming
+- Javascript
 
 ## Features
 

@@ -9,6 +9,7 @@ tags:
   - editactf2023
   - reversing
   - basics
+  - drunkencloud
 description:
   "Decipher the inner workings of compiled programs through Reverse Engineering. Transform machine code back into a human-readable format, understanding program functionality and identifying vulnerabilities. While the challenges may involve analyzing assembly code, this skill is invaluable for those interested in malware analysis or game hacking."
 ---
