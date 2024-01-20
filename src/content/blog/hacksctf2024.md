@@ -98,6 +98,8 @@ This was then decrypted with a caesar shift cipher with a shift of 8 to yield th
 
 This led to a file unzipme.zip, and the password to it was partially revealed in the chall question "hostis**\***", which was bruteforced to yield hostisangry.
 
+**flag is ```hacks{y0u_jus4_unz11p3d_me}```**
+
 # jarr
 
 This chall was solved by opening up the jar file using jadx-gui and viewing the asset files, which yielded a file named: asset.txt with the contents: `hacks{1nt3g3rs_G0ne_Wr0ng}`
@@ -192,7 +194,7 @@ AFTER FIXING
 
 **flag is `hacks{th4t5_a_d00zy}`**
 
-## gif gif (coming soon)
+# gif gif (coming soon)
 
 **flag is `hacks{P4YTm_KAR0}`**
 
