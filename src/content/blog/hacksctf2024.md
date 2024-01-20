@@ -183,8 +183,7 @@ Below is the CTF we referred.
 https://samanthactf.medium.com/utctf-march-12-14-2021-84f60d372fdf
 
 My friend used photopea
-it has the distort -> something something option
-its in filter tab
+Filter -> Distort -> Shear option
 
 AFTER FIXING
 ![image](https://hackmd.io/_uploads/HkwjTgYKT.png)
