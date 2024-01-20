@@ -158,6 +158,35 @@ print(flag)
 
 ```
 
+# India
+
+Here, we were given a chips.jpeg image. So I tried running it thought google lens and image search and nothing useful came. So, I started looking at the language of those chips packets. So, it was Spanish. So ye, we came to a conclusion its either Argentina or Spain. Then organizers gave hint (hint : South America). So it was confirmed it was an South American Country i.e., Argentina. We then started bruteforcing Argentinian rivers. We couldn't get it right because our flag format was wrong. So after fixing it.
+**flag is ` hacks{coloradoriver}`**
+
+# Dinner with Salsa (Dance)
+
+Here, we were given a phonebook.docx. So here, we tried calling all numbers and looked for patterns. Then we realized last 3 digits of few numbers end with 001, 002, 003, 004. We were stuck.We looked at the country codes, these looked like disk positions of mexican cipher .Then we tried concatenating the first seven digits of these number in order. and tried running it through mexican army cipher wheel with country code as disk positions.
+We used the below decoder.
+https://www.dcode.fr/mexican-army-cipher-wheel
+And YES, we got the answer.
+**flag is `hacks{TORTILLAHACKED}`**
+
+# Trans-dimensional Message
+
+![transdimessage](https://hackmd.io/_uploads/SylSsgYtT.png)
+So here, we referred to previous writeups because I remember doing similar question earlier
+Below is the CTF we referred.
+https://samanthactf.medium.com/utctf-march-12-14-2021-84f60d372fdf
+
+My friend used photopea
+it has the distort -> something something option
+its in filter tab
+
+AFTER FIXING
+![image](https://hackmd.io/_uploads/HkwjTgYKT.png)
+
+**flag is `hacks{th4t5_a_d00zy}`**
+
 ### About Author
 
 Aathish S
