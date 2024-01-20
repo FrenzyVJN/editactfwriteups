@@ -1,8 +1,8 @@
 ---
-title: Reverse Engineering Basics
+title: HacksCTF 2024 Writeups
 author: Aathish S
 pubDatetime: 2024-01-20T16:55:12.000+00:00
-slug: reverse-engineering-basics
+slug: hacksctf2024
 featured: false
 draft: false
 tags:
@@ -13,14 +13,14 @@ tags:
   - Aathish
   - miscellaneous
 
-description:
-  "This write-up covers the solutions to various challenges in the HacksCTF competition, including reverse engineering, cryptography, forensics, and more. Follow the steps, to unravel the mysteries and find the flags for each challenge."
+description: "This write-up covers the solutions to various challenges in the HacksCTF competition, including reverse engineering, cryptography, forensics, and more. Follow the steps, to unravel the mysteries and find the flags for each challenge."
 ---
 
+# HacksCTF
 
-# HacksCTF 
-> [name=Aathish S][Linkedin](https://linkedin.com/in/aathishs/ "Linkedin") | [Github](https://github.com/Aathish04 "Github") | [Portfolio](https://aathish04.github.io/ "Portfolio")
+## Author : Aathish S
 
+[Linkedin](https://linkedin.com/in/aathishs/ "Linkedin") | [Github](https://github.com/Aathish04 "Github") | [Portfolio](https://aathish04.github.io/ "Portfolio")
 
 # OhNo
 
@@ -38,7 +38,7 @@ https://www.dcode.fr/dancing-men-cipher
 
 We got mori4rity
 
-flag is ```hacks{mori4rity}```
+flag is `hacks{mori4rity}`
 
 # Breaking Bad
 
@@ -46,13 +46,13 @@ The Given PDF could be decrypted by entering the ip address calculated from the 
 
 On entering that, a string in base 85 is given, which when decoded, yeilds a string encrypted using the periodic table cipher.
 
-On solving, the final flag is ```hacks{UARERADIUM}```
+On solving, the final flag is `hacks{UARERADIUM}`
 
 # story-2
 
 the values given were reminiscent of diffie hellman values p, g a and b. We were stuck at p since we expected it to be a prime, but it was 10.
 
-An online calculator was used to find the value of the secret key, which was  4. The geogiraphical location 44,44 was a district in russia that turned out to be the key.
+An online calculator was used to find the value of the secret key, which was 4. The geogiraphical location 44,44 was a district in russia that turned out to be the key.
 
 # Perfect Square
 
@@ -77,11 +77,10 @@ while True:
 
 # magic-magic
 
-RUnning the file command on the .cad file informs us that it's actually xz compressed data. We change the file extension, and extract the folder to yield a flag.iso file. We run the file command again to realise that it is actually just ascii text, which yields: <+ohcAo(mg+DGm>3Zr*E@r$.49f$lVA3k;a?Ys4h+\`MQP@8pqjDLD
+RUnning the file command on the .cad file informs us that it's actually xz compressed data. We change the file extension, and extract the folder to yield a flag.iso file. We run the file command again to realise that it is actually just ascii text, which yields: <+ohcAo(mg+DGm>3Zr\*E@r$.49f$lVA3k;a?Ys4h+\`MQP@8pqjDLD
 
-Applying the base85 conversion, we obtain the sentence: 
-The flag is : ```hacks{M3t@dAt&_man!pu(aTi*n}```
-
+Applying the base85 conversion, we obtain the sentence:
+The flag is : `hacks{M3t@dAt&_man!pu(aTi*n}`
 
 # SimpleCrypto
 
@@ -91,11 +90,11 @@ The text inside ctf.txt was : pbbxa://lzqdm.owwotm.kwu/lzqdm/nwtlmza/1TIe3vvWzCz
 
 This was then decrypted with a caesar shift cipher with a shift of 8 to yield the url: https://drive.google.com/drive/folders/1LAw3nnOrUrQ7DN49xnDw6AES8qvQAV0S?usp=sharing
 
-This led to a file unzipme.zip, and the password to it was partially revealed in the chall question "hostis*****", which was bruteforced to yield hostisangry.
+This led to a file unzipme.zip, and the password to it was partially revealed in the chall question "hostis**\***", which was bruteforced to yield hostisangry.
 
 # jarr
 
-This chall was solved by opening up the jar file using jadx-gui and viewing the asset files, which yielded a file named: asset.txt with the contents: ```hacks{1nt3g3rs_G0ne_Wr0ng}```
+This chall was solved by opening up the jar file using jadx-gui and viewing the asset files, which yielded a file named: asset.txt with the contents: `hacks{1nt3g3rs_G0ne_Wr0ng}`
 
 # aussie
 
@@ -117,7 +116,7 @@ HOST = "0.cloud.chals.io"
 PORT = 33312
 
 def conn(): #connect to server
-   r = remote(HOST, PORT) 
+   r = remote(HOST, PORT)
    print(r.recvuntil(b''))
 #    r.recvline()
    return r
@@ -125,7 +124,7 @@ def conn(): #connect to server
 r = conn()
 count = 1
 
-while True:      
+while True:
        question = r.recvline()
        print(str(question))
        break_question = question.lstrip(b"Solve: ").strip().split(b" ")
@@ -137,27 +136,28 @@ while True:
            result = str(first - second)
            print(result)
            r.sendline(result.encode())
-           
+
        if break_question[1] == '*':
            result = str(first * second)
            print(result)
            r.sendline(result.encode())
-           
+
        if break_question[1] == '+':
            result = str(first + second)
            print(result)
            r.sendline(result.encode())
-           
+
        if break_question[1] == '/':
            result = str(first / second)
            print(result)
            r.sendline(result.encode())
        print(r.recvline())
-       count += 1      
+       count += 1
 flag = r.recvline()
 print(flag)
 
 ```
 
 ### About Author
+
 Aathish S
