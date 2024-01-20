@@ -79,6 +79,8 @@ while True:
         continue
 ```
 
+**flag is `hacks{s0_many_64s} `**
+
 # magic-magic
 
 RUnning the file command on the .cad file informs us that it's actually xz compressed data. We change the file extension, and extract the folder to yield a flag.iso file. We run the file command again to realise that it is actually just ascii text, which yields: <+ohcAo(mg+DGm>3Zr\*E@r$.49f$lVA3k;a?Ys4h+\`MQP@8pqjDLD
@@ -189,6 +191,10 @@ AFTER FIXING
 ![image](https://hackmd.io/_uploads/HkwjTgYKT.png)
 
 **flag is `hacks{th4t5_a_d00zy}`**
+
+## gif gif (coming soon)
+
+**flag is `hacks{P4YTm_KAR0}`**
 
 ### About Author
 
