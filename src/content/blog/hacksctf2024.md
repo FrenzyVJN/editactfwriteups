@@ -26,6 +26,10 @@ description: "This write-up covers the solutions to various challenges in the Ha
 
 Given text was pasted into a search engine that led to Spammmimic.
 Spammimic was then used to decode the file.
+We used the below decoder
+https://www.spammimic.com/decode.cgi
+
+**flag is `hacks{that_was_easY}`**
 
 # Figurines
 
