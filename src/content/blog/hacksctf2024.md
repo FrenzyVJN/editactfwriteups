@@ -12,6 +12,7 @@ tags:
   - forensics
   - Aathish
   - miscellaneous
+  - frenzyvjn
 
 description: "This write-up covers the solutions to various challenges in the HacksCTF competition, including reverse engineering, cryptography, forensics, and more. Follow the steps, to unravel the mysteries and find the flags for each challenge."
 ---
