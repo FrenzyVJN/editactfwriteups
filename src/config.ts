@@ -25,7 +25,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/SNUC-Zero-Day",
+    href: "https://github.com/EditaCTF",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -44,7 +44,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "/",
+    href: "/EditaCTF",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
@@ -68,7 +68,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Snapchat",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "/",
     linkTitle: `${SITE.title} on Snapchat`,
     active: false,
   },
@@ -87,7 +87,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Discord",
-    href: "https://discord.gg/exJsSNX83E",
+    href: "https://dsc.gg/edita",
     linkTitle: `${SITE.title} on Discord`,
     active: false,
   },
