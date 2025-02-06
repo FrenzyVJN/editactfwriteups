@@ -21,5 +21,4 @@ description:
 ![EditaCTF2025](https://hackmd.io/_uploads/ry2OKgqHp.png)
 
 
-
 # Coming soon...
