@@ -18,7 +18,7 @@ description:
 ---
 # **EditaCTF**
 
-![EditaCTF2025](https://hackmd.io/_uploads/ry2OKgqHp.png)
+![EditaCTF2025](https://hackmd.io/_uploads/rkPTml7Kkl.jpg)
 ## Author : DrunkenCloud
 
 [Github](https://github.com/DrunkenCloud "Github") | [Portfolio](https://drunkencloud.vercel.app/ "Portfolio")
